@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'Rest_Api_Example/rest_api_example_view.dart';
 import 'Set_Avatar_Image_From_Camera_Or_Gallery/set_avatar_image.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SetProfileAvatar(),
+      home: RestApiExampleView(),
     );
   }
 }
